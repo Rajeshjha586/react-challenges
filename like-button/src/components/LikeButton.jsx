@@ -70,7 +70,7 @@ function LikeButton() {
       <button
         className={classNames(
           "like-button",
-          buttonState.isLiked ? "liked-button--liked" : "liked-button--default"
+          buttonState.isLiked ? "like-button--liked" : "like-button--default"
         )}
         disabled={buttonState.status === STATUS.LOADING}
         onClick={handleLikeAction}
