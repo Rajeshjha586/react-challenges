@@ -65,8 +65,6 @@ function LikeButton() {
     }
   }
 
-  console.log({ buttonState });
-
   return (
     <div className="button-container">
       <button
